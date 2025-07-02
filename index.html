@@ -8,42 +8,41 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <div class="header">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  <header class="header">
     <div class="banner">
-      🍕 D'OH-MINO'S PIZZA
+      <h1>🍕 D'OH-MINO'S PIZZA</h1>
     </div>
-    <div class="nav">
+    <nav class="nav" aria-label="Main navigation">
       <a href="#">Menu</a>
       <a href="#">Locations</a>
       <a href="#">Contact</a>
+    </nav>
+  </header>
+  <main id="main-content">
+    <div class="info">
+      <p class="tagline">MISTAKES TASTE BETTER WHEN THEY'RE COVERED IN CHEESE</p>
+      <p class="description">
+        Welcome to D'oh-mino's, where we've cut corners in every possible way—except for the cheese. 
+        But at least our pizza is <em>probably</em> edible.
+      </p>
+      <a href="#" class="order-now" aria-label="Order pizza now">ORDER NOW</a>
     </div>
-  </div>
-
-  <div class="info">
-    <p class="tagline">MISTAKES TASTE BETTER WHEN THEY'RE COVERED IN CHEESE</p>
-    <p class="description">
-      Welcome to D'oh-mino's, where we've cut corners in every possible way—except for the cheese. 
-      But at least our pizza is *probably* edible.
-    </p>
-    <a href="#" class="order-now">ORDER NOW</a>
-  </div>
-
-  <div class="main-content">
-    <div class="deal">
-      <img src="img/pizza-deal.jpg">
-      <p>Our most *questionable* deal yet! Get two large pizzas for the price of three.</p>
-    </div>
-
-    <div class="deal">
-      <img src="img/cold-pizza.jpg">
-      <p>Cold Pizza Sampler. Why wait until the morning to eat cold pizza?</p>
-  </div>
-  </div>
-
+    <section class="main-content">
+      <div class="deal">
+        <img src="img/pizza-deal.jpg" alt="Pizza deal: two large pizzas for the price of three">
+        <h2>Our most <em>questionable</em> deal yet!</h2>
+        <p>Get two large pizzas for the price of three.</p>
+      </div>
+      <div class="deal">
+        <img src="img/cold-pizza.jpg" alt="Cold pizza sampler">
+        <h2>Cold Pizza Sampler</h2>
+        <p>Why wait until the morning to eat cold pizza?</p>
+      </div>
+    </section>
+  </main>
   <footer>
     <p>© 2025 D'oh-mino's Pizza - No refunds, no regrets</p>
   </footer>
-
 </body>
 </html>
